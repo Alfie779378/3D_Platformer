@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
         ApplyGravity();
         HandleJump();
         HandleCrouch();
+        
 
     }
     void HandleMovement()
@@ -101,5 +102,10 @@ public class PlayerController : MonoBehaviour
         {
             controller.height = standingHeight;
         }
+    }
+
+    public void HandleJumpPadJump(float jumpPadForce)
+    {
+        velocity.y = Mathf.Sqrt(jumpHeight* jumpPadForce * -2f * gravity);
     }
 }

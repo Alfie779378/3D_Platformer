@@ -137,6 +137,7 @@ m_ResolvedPackages:
     - 2.13.4
     - 2.13.5
     - 2.13.6
+    - 2.14.0
     compatible:
     - 2.0.7
     - 2.1.0-preview.3
@@ -393,6 +394,7 @@ m_ResolvedPackages:
     - 6.1.1
     - 6.1.2
     - 6.1.3
+    - 6.1.4
     compatible:
     - 5.1.1
     - 5.2.0
@@ -985,6 +987,7 @@ m_ResolvedPackages:
     - 1.9.10
     - 1.9.11
     - 1.9.12
+    - 1.9.13
     compatible:
     - 1.9.0
     - 1.9.1
@@ -3059,6 +3062,7 @@ m_ResolvedPackages:
     - 2.0.26
     - 2.0.27
     - 2.0.28
+    - 2.0.29
     compatible:
     - 2.0.18
     - 2.0.20
@@ -3069,7 +3073,8 @@ m_ResolvedPackages:
     - 2.0.26
     - 2.0.27
     - 2.0.28
-    recommended: 2.0.28
+    - 2.0.29
+    recommended: 2.0.29
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
