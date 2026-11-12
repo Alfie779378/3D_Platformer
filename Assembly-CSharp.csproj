@@ -59,9 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\movement\PlayerController.cs" />
-    <Compile Include="Assets\VictoryText.cs" />
-    <Compile Include="Assets\JumpPad.cs" />
+    <Compile Include="Assets\scripts\JumpPad.cs" />
     <Compile Include="Assets\movement\CameraLook.cs" />
+    <Compile Include="Assets\scripts\VictoryText.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

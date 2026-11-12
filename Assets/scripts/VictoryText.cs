@@ -15,7 +15,6 @@ public class VictoryText : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("win");
 
             WinText.SetActive(true);
 

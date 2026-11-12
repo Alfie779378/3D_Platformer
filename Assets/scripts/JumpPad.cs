@@ -16,7 +16,6 @@ public class JumpPad : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             characterController = other.GetComponent<PlayerController>();
-            Debug.Log("Jump pad activated");
             characterController.HandleJumpPadJump(jumpForce);
             other.GetComponent<CharacterController>().Move(velocity* Time.deltaTime);
         }
